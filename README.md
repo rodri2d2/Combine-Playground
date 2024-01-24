@@ -18,7 +18,19 @@ About It is a collection of sample projects designed to explore and demonstrate 
              <a href="https://github.com/rodri2d2/Combine-Playground/tree/main/CombineAPIRequestData">This app</a> demonstrates how to easily make a request to an endpoint and parse the response into a local data model. For the View itself it is used a simple list and with a "CharacterRow" that uses AsyncImage to load image dynamically.
         </td>
     </tr>
+        <tr>
+        <th colspan="2"><h3><bold>Real time validation form</bold></h3></th>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/rodri2d2/Combine-Playground/blob/main/FormValidation/DEMO/DEMO.gif" width="150" height="300" /></td>
+        <td style="text-align:center;">
+             <a href="https://github.com/rodri2d2/Combine-Playground/tree/main/FormValidationa">This app</a> demonstrates how to validate a form vie Combine. It uses @Publishers and the Combine operator <bold>CombineLatest</bold>. The view itself just updates when user taps a correct email and password
+        </td>
+    </tr>
 </table>
+
+
+
 
 <br>
 
