@@ -6,11 +6,21 @@ About It is a collection of sample projects designed to explore and demonstrate 
 
 
 
-##  Getting Data from an API
-- A simple project to get data from a API and view it with SwiftUI
+## Demos
 
+<table>
+    <tr>
+        <th colspan="2"><h3><bold>Getting Data from an API</bold></h3></th>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/rodri2d2/Combine-Playground/blob/main/CombineAPIRequestData/DEMO/DEMO.gif" width="150" height="300" /></td>
+        <td style="text-align:center;">
+             <a href="https://github.com/rodri2d2/Combine-Playground/tree/main/CombineAPIRequestData">This app</a> demonstrates how to easily make a request to an endpoint and parse the response into a local data model. For the View itself it is used a simple list and with a "CharacterRow" that uses AsyncImage to load image dynamically.
+        </td>
+    </tr>
+</table>
 
-
+<br>
 
 
 > ## Author
