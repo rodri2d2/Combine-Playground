@@ -27,6 +27,16 @@ About It is a collection of sample projects designed to explore and demonstrate 
              <a href="https://github.com/rodri2d2/Combine-Playground/tree/main/FormValidationa">This app</a> demonstrates how to validate a form vie Combine. It uses @Publishers and the Combine operator <bold>CombineLatest</bold>. The view itself just updates when user taps a correct email and password
         </td>
     </tr>
+        </tr>
+        <tr>
+        <th colspan="2"><h3><bold>Combine Tip Calculator</bold></h3></th>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/rodri2d2/Combine-Playground/blob/main/CombineTipCalulator/DEMO/DMEO.gif" width="150" height="300" /></td>
+        <td style="text-align:center;">
+             <a href="https://github.com/rodri2d2/Combine-Playground/tree/main/CombineTipCalulator">This app</a> demonstrates how to create create simple functional app by using only few <bold>@Publishers</bold> and how powerful Combine is. It is true that theres no "Combine impor" for this app because in Combine, @Published is a property attribute that automatically announces changes so that the SwiftUI UI can update views that depend on this data. When you mark an ObservableObject property with @Published, you are creating a publisher.
+        </td>
+    </tr>
 </table>
 
 
