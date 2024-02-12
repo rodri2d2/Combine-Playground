@@ -37,9 +37,20 @@ About It is a collection of sample projects designed to explore and demonstrate 
              <a href="https://github.com/rodri2d2/Combine-Playground/tree/main/CombineTipCalulator">This app</a> demonstrates how to create create simple functional app by using only few <bold>@Publishers</bold> and how powerful Combine is. It is true that theres no "Combine impor" for this app because in Combine, @Published is a property attribute that automatically announces changes so that the SwiftUI UI can update views that depend on this data. When you mark an ObservableObject property with @Published, you are creating a publisher.
         </td>
     </tr>
+        </tr>
+        </tr>
+        <tr>
+        <th colspan="2"><h3><bold>Getting Data from an API with Cache</bold></h3></th>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/rodri2d2/Combine-Playground/blob/main/CombineCacheAPICalls/DEMO/DEMO.gif" width="150" height="300" /></td>
+        <td style="text-align:center;">
+             <a href="https://github.com/rodri2d2/Combine-Playground/tree/main/CombineCacheAPICalls/CombineCacheAPICalls">The app</a>
+              itself is very simple. It makes a request, loads a list and you can navigate to see the detail of the selected item in the list. However the highlight here is that I have implemented a cache class based on Apple's NSCache.This class is the evolution of a previous project. There are still functionalities to implement like self-cleaning or self-checking in regarding to expiration times. </br> <hr>
+              <a href="https://developer.apple.com/tutorials/app-dev-training/caching-network-data">Inspiration from Apple</a></br> <a href="https://github.com/rodri2d2/RickAndMortyApp/blob/main/RickAndMortyApp/RickAndMortyApp/DataManagers/Services/ImageLocallFileManager.swift">Previous project that create a need for change</a>
+        </td>
+    </tr>
 </table>
-
-
 
 
 <br>
